@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.novaversao.plantcodev3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+11-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:22:5-65
+11-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:22:22-62
+12    <uses-feature
+12-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:25:5-27:36
+13        android:name="android.hardware.camera"
+13-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:26:9-47
+14        android:required="false" />
+14-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:27:9-33
+15    <uses-feature
+15-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:28:5-30:36
+16        android:name="android.hardware.camera.front"
+16-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:29:9-53
+17        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+17-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:30:9-33
+18    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+19    <uses-feature
+19-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:33:5-35:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:34:9-57
+21        android:required="false" />
+21-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:35:9-33
+22    <uses-feature
+22-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:36:5-38:36
+23        android:name="android.hardware.camera.flash"
+23-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:37:9-53
+24        android:required="false" />
+24-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:38:9-33
+25    <uses-feature
+25-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:39:5-41:36
+26        android:name="android.hardware.screen.landscape"
+26-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:40:9-57
+27        android:required="false" />
+27-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:41:9-33
+28    <uses-feature
+28-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:42:5-44:36
+29        android:name="android.hardware.wifi"
+29-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:43:9-45
+30        android:required="false" />
+30-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:44:9-33
+31
+32    <permission
+32-->[androidx.core:core:1.13.0] /home/marciov/.gradle/caches/8.9/transforms/8cb49d8a49130978bbd9c7a2ec7a81c6/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+33        android:name="com.novaversao.plantcodev3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.13.0] /home/marciov/.gradle/caches/8.9/transforms/8cb49d8a49130978bbd9c7a2ec7a81c6/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.13.0] /home/marciov/.gradle/caches/8.9/transforms/8cb49d8a49130978bbd9c7a2ec7a81c6/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.novaversao.plantcodev3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.13.0] /home/marciov/.gradle/caches/8.9/transforms/8cb49d8a49130978bbd9c7a2ec7a81c6/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.13.0] /home/marciov/.gradle/caches/8.9/transforms/8cb49d8a49130978bbd9c7a2ec7a81c6/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:5:5-26:19
+39        android:allowBackup="true"
+39-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:6:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.13.0] /home/marciov/.gradle/caches/8.9/transforms/8cb49d8a49130978bbd9c7a2ec7a81c6/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+41        android:dataExtractionRules="@xml/data_extraction_rules"
+41-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:7:9-65
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:fullBackupContent="@xml/backup_rules"
+44-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:8:9-54
+45        android:icon="@mipmap/ic_launcher"
+45-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:9:9-43
+46        android:label="@string/app_name"
+46-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:10:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:11:9-54
+48        android:supportsRtl="true"
+48-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:12:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.PlantCodeV3" >
+50-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:13:9-49
+51        <activity
+51-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:15:9-25:20
+52            android:name="com.novaversao.plantcodev3.MainActivity"
+52-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:16:13-41
+53            android:exported="true"
+53-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:17:13-36
+54            android:label="@string/app_name"
+54-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:18:13-45
+55            android:theme="@style/Theme.PlantCodeV3" >
+55-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:19:13-53
+56            <intent-filter>
+56-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:20:13-24:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:21:17-69
+57-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:21:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:23:17-77
+59-->/home/marciov/AndroidStudioProjects/PlantCodeV3/app/src/main/AndroidManifest.xml:23:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[androidx.compose.ui:ui-tooling-android:1.6.6] /home/marciov/.gradle/caches/8.9/transforms/aba25ef8dc8a558e10ae4f79ab65ea4d/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+63            android:name="androidx.compose.ui.tooling.PreviewActivity"
+63-->[androidx.compose.ui:ui-tooling-android:1.6.6] /home/marciov/.gradle/caches/8.9/transforms/aba25ef8dc8a558e10ae4f79ab65ea4d/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+64            android:exported="true" />
+64-->[androidx.compose.ui:ui-tooling-android:1.6.6] /home/marciov/.gradle/caches/8.9/transforms/aba25ef8dc8a558e10ae4f79ab65ea4d/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+65        <activity
+65-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:47:9-53:63
+66            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+66-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:48:13-74
+67            android:clearTaskOnLaunch="true"
+67-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:49:13-45
+68            android:screenOrientation="sensorLandscape"
+68-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:50:13-56
+69            android:stateNotNeeded="true"
+69-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:51:13-42
+70            android:theme="@style/zxing_CaptureTheme"
+70-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:52:13-54
+71            android:windowSoftInputMode="stateAlwaysHidden" />
+71-->[com.journeyapps:zxing-android-embedded:4.2.0] /home/marciov/.gradle/caches/8.9/transforms/0bd76eb95a8f40d35c334735a4a504f0/transformed/zxing-android-embedded-4.2.0/AndroidManifest.xml:53:13-60
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.3.0] /home/marciov/.gradle/caches/8.9/transforms/417972e3a5a3d73d2a3297a016344034/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.3.0] /home/marciov/.gradle/caches/8.9/transforms/417972e3a5a3d73d2a3297a016344034/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+75            android:authorities="com.novaversao.plantcodev3.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.3.0] /home/marciov/.gradle/caches/8.9/transforms/417972e3a5a3d73d2a3297a016344034/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.3.0] /home/marciov/.gradle/caches/8.9/transforms/417972e3a5a3d73d2a3297a016344034/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.3.0] /home/marciov/.gradle/caches/8.9/transforms/417972e3a5a3d73d2a3297a016344034/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.3.0] /home/marciov/.gradle/caches/8.9/transforms/417972e3a5a3d73d2a3297a016344034/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.3.0] /home/marciov/.gradle/caches/8.9/transforms/417972e3a5a3d73d2a3297a016344034/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/marciov/.gradle/caches/8.9/transforms/47734d21af8b7145c3e51bfdca912cb8/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/marciov/.gradle/caches/8.9/transforms/47734d21af8b7145c3e51bfdca912cb8/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/marciov/.gradle/caches/8.9/transforms/47734d21af8b7145c3e51bfdca912cb8/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <activity
+88-->[androidx.compose.ui:ui-test-manifest:1.6.6] /home/marciov/.gradle/caches/8.9/transforms/0717f71b2e4443f227dd3740593f6b46/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:23:9-25:39
+89            android:name="androidx.activity.ComponentActivity"
+89-->[androidx.compose.ui:ui-test-manifest:1.6.6] /home/marciov/.gradle/caches/8.9/transforms/0717f71b2e4443f227dd3740593f6b46/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:24:13-63
+90            android:exported="true" />
+90-->[androidx.compose.ui:ui-test-manifest:1.6.6] /home/marciov/.gradle/caches/8.9/transforms/0717f71b2e4443f227dd3740593f6b46/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:25:13-36
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/marciov/.gradle/caches/8.9/transforms/506b58ca2a161c26ba70a6aea529aa90/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>
